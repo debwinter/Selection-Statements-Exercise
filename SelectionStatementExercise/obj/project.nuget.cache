@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "KnRLLpNVCXAqkBT1xLL/azT7nyqmDlkF3Yz9mysWh7Lt7+Sw3GwCIDmNYmUYWu83mXGRwRdqIIt/wU+Qn5vR3g==",
+  "dgSpecHash": "F2B6el/qrUVNvnxQVJBYoTOKuqgIfdrw7v7M5t9ilM4Fttbb9ilJFEGZg+9DyJ+1/FQBm8//U8i04Rt5KqFV6w==",
   "success": true,
   "projectFilePath": "/Users/debrawinter/Desktop/Repos/SelectionStatementsExercise/Selection-Statements-Exercise/SelectionStatementExercise/SelectionStatementExercise.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/debrawinter/.nuget/packages/microsoft.netcore.app.ref/6.0.25/microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "/Users/debrawinter/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.25/microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "/Users/debrawinter/.nuget/packages/microsoft.netcore.app.host.osx-x64/6.0.25/microsoft.netcore.app.host.osx-x64.6.0.25.nupkg.sha512"
+  ],
   "logs": []
 }

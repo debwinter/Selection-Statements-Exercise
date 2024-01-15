@@ -3,7 +3,6 @@
 /Users/debrawinter/Desktop/Repos/SelectionStatementsExercise/Selection-Statements-Exercise/SelectionStatementExercise/bin/Debug/net6.0/SelectionStatementExercise.runtimeconfig.json
 /Users/debrawinter/Desktop/Repos/SelectionStatementsExercise/Selection-Statements-Exercise/SelectionStatementExercise/bin/Debug/net6.0/SelectionStatementExercise.dll
 /Users/debrawinter/Desktop/Repos/SelectionStatementsExercise/Selection-Statements-Exercise/SelectionStatementExercise/bin/Debug/net6.0/SelectionStatementExercise.pdb
-/Users/debrawinter/Desktop/Repos/SelectionStatementsExercise/Selection-Statements-Exercise/SelectionStatementExercise/obj/Debug/net6.0/SelectionStatementExercise.csproj.AssemblyReference.cache
 /Users/debrawinter/Desktop/Repos/SelectionStatementsExercise/Selection-Statements-Exercise/SelectionStatementExercise/obj/Debug/net6.0/SelectionStatementExercise.GeneratedMSBuildEditorConfig.editorconfig
 /Users/debrawinter/Desktop/Repos/SelectionStatementsExercise/Selection-Statements-Exercise/SelectionStatementExercise/obj/Debug/net6.0/SelectionStatementExercise.AssemblyInfoInputs.cache
 /Users/debrawinter/Desktop/Repos/SelectionStatementsExercise/Selection-Statements-Exercise/SelectionStatementExercise/obj/Debug/net6.0/SelectionStatementExercise.AssemblyInfo.cs
@@ -13,3 +12,4 @@
 /Users/debrawinter/Desktop/Repos/SelectionStatementsExercise/Selection-Statements-Exercise/SelectionStatementExercise/obj/Debug/net6.0/SelectionStatementExercise.pdb
 /Users/debrawinter/Desktop/Repos/SelectionStatementsExercise/Selection-Statements-Exercise/SelectionStatementExercise/obj/Debug/net6.0/SelectionStatementExercise.genruntimeconfig.cache
 /Users/debrawinter/Desktop/Repos/SelectionStatementsExercise/Selection-Statements-Exercise/SelectionStatementExercise/obj/Debug/net6.0/ref/SelectionStatementExercise.dll
+/Users/debrawinter/Desktop/Repos/SelectionStatementsExercise/Selection-Statements-Exercise/SelectionStatementExercise/obj/Debug/net6.0/SelectionStatementExercise.csproj.AssemblyReference.cache
