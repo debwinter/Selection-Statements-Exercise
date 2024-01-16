@@ -4,26 +4,31 @@
     {
         static void Main(string[] args)
         {
-            //Random r = new Random();
-            //int favNumber = r.Next(1, 101);
+            Random r = new Random();
+            int favNumber = r.Next(1, 101);
 
-            //Console.WriteLine("I'm thinking of a number between 1 and 100.");
+            Console.WriteLine("I'm thinking of a number between 1 and 100.");
 
-            //int userGuess = Guess();
+            int userGuess = Guess();
+            int numberOfGuesses = 1;
+            if (userGuess != favNumber)
+            {
+                do
+                {
+                    Console.WriteLine(Evaluate(userGuess, favNumber));
+                    userGuess = Guess();
+                    ++numberOfGuesses;
+                }
+                while (userGuess != favNumber);
+            }
+            
+            Console.WriteLine($"You got it! It took you {numberOfGuesses} attempts to guess the number {favNumber}.");
 
-            //do
-            //{
-            //    Console.WriteLine(Evaluate(userGuess, favNumber));
-            //    userGuess = Guess();
-            //} while (userGuess != favNumber);
-
-            //Console.WriteLine($"You got it! I was thinking of the number {favNumber}.");
-
-            Console.WriteLine("What is your favorite subject in school?");
-            string favSubject = Console.ReadLine();
-            Console.WriteLine();
-            Console.WriteLine("Here's a joke you might like:");
-            Console.WriteLine(SubjectMessage(favSubject));
+            //Console.WriteLine("What is your favorite subject in school?");
+            //string favSubject = Console.ReadLine();
+            //Console.WriteLine();
+            //Console.WriteLine("Here's a joke you might like:");
+            //Console.WriteLine(SubjectMessage(favSubject));
         }
 
         public static int Guess()
