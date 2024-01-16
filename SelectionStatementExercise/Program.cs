@@ -11,18 +11,22 @@
 
             int userGuess = Guess();
             int numberOfGuesses = 1;
-            if (userGuess != favNumber)
+
+            if (userGuess == favNumber)
+            {
+                Console.WriteLine($"Lucky duck! You guessed my number ({favNumber}) on your first attempt.");
+            }
+            else
             {
                 do
                 {
                     Console.WriteLine(Evaluate(userGuess, favNumber));
                     userGuess = Guess();
                     ++numberOfGuesses;
-                }
-                while (userGuess != favNumber);
+                } while (userGuess != favNumber);
+
+                Console.WriteLine($"You got it! It took you {numberOfGuesses} attempts to guess the number {favNumber}.");
             }
-            
-            Console.WriteLine($"You got it! It took you {numberOfGuesses} attempts to guess the number {favNumber}.");
 
             //Console.WriteLine("What is your favorite subject in school?");
             //string favSubject = Console.ReadLine();
